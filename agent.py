@@ -16,7 +16,7 @@ import re
 from typing import TypedDict, Literal, Optional
 
 from langchain_groq import ChatGroq
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 from langgraph.graph import StateGraph, END
 
 from tools import faq_lookup, account_lookup, refund_calculator, open_ticket, get_last_account
