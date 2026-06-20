@@ -23,7 +23,7 @@ from tools import faq_lookup, account_lookup, refund_calculator, open_ticket, ge
 
 # ── LLM ────────────────────────────────────────────────────────────────────────
 llm = ChatGroq(
-    model="llama3-8b-8192",
+    model="llama-3.1-8b-instant",
     api_key=os.environ["GROQ_API_KEY"],
     temperature=0.2,
 )
